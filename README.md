@@ -5,24 +5,25 @@ Your marketplace backend system allows users to perform various operations such 
 
 # API Endpoints
 Here’s a summary of the key API endpoints in your system:
-User Service:
+## User Service:
 POST /api/users/register: Register a new user.
 POST /api/users/login: Log in an existing user.
-Product Service:
+## Product Service:
 POST /api/products/create: Add a new product.
 PUT /api/products/update: Update product details.
 PATCH /api/products/remove: Delete a product.
 GET /api/products: View all products.
 GET /api/products/:id: View a specific product by ID.
-Order Service:
+## Order Service:
 POST /api/orders/create: Create a new order.
 GET /api/orders/:id: View details of a specific order.
 GET /api/orders/:id/byUser: View all orders by the user.
-Wallet Service:
+## Wallet Service:
 POST /api/wallet/credit: Credit money to the wallet.
 GET /api/wallet/balance: View wallet balance.
 POST /api/wallet/debit: Debit Money from the Wallet.
 GET /api/wallet/transaction: All transactions by User..
+
 # Security Considerations
 JWT Authentication: Ensures that only authenticated users can access the APIs. The JWT token is passed in the Authorization header of each request.
 Authorization: The system checks whether the user is authorised to perform certain actions, such as updating or deleting a product.
