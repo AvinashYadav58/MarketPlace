@@ -1,4 +1,9 @@
 # MarketPlace
+
+# Step to run:
+  ## npm install
+  ## node /order-service/src/app.js
+  
 ## Backend appliciation for Product sell
   Overview of the Marketplace Backend System
   Your marketplace backend system allows users to perform various operations such as registering, logging in, managing their own products, viewing all products, placing orders, and managing their wallet balance.   The system is built using Express.js as the backend framework, MongoDB as the database, JWT (JSON Web Tokens) for authentication, and follows the REST API architecture along with the MVC (Model-View-Controller)   design pattern.
